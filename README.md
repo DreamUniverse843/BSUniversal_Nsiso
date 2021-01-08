@@ -1,12 +1,10 @@
-# NsisoLauncher(Master)
-A New Minecraft Launcher (unofficial) from Nsiso (Master)  
-[![Build status](https://ci.appveyor.com/api/projects/status/st6w0l4x1fvf6m5f/branch/master?svg=true)](https://ci.appveyor.com/project/nsisogf/nsisolauncher/branch/master)
-[![Build Status](https://nsisogf.visualstudio.com/NsisoLauncher/_apis/build/status/Nsiso.NsisoLauncher?branchName=master)](https://nsisogf.visualstudio.com/NsisoLauncher/_build/latest?definitionId=1&branchName=master)
+# BSUniversal Launcher
+筱望之宇 BSUniversal 启动器<br>
+本启动器参考了 NsisoLauncher 进行开发 
 
-感谢您关注到我们Nsiso启动器的开源项目  
-此项目开源目的在于学习，错误排查，公开安全策略  
-作者：Nsiso工作室-siso  
-请注意该项目遵循GNU GPL3.0开源协议  
+此项目开源目的在于学习，探索Minecraft启动器的制作方式。
+程序原始作者：Nsiso工作室-Nsiso  
+请注意该项目遵循GNU GPL3.0开源协议
   
 ## 使用组件（由名字字母排序）：
 
