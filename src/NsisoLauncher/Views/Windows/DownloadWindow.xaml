@@ -9,7 +9,7 @@
         xmlns:vm="clr-namespace:NsisoLauncher.ViewModels"
         mc:Ignorable="d"
         Dialog:DialogParticipation.Register="{Binding}"
-        Title="DownloadWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" 
+        Title="下载窗口" Height="450" Width="800" WindowStartupLocation="CenterScreen" 
                       Closing="MetroWindow_Closing" Loaded="MetroWindow_Loaded">
     <controls:MetroWindow.Resources>
         <vm:DownloadWindowViewModel x:Key="downloadWindowVM" Instance="{x:Static Dialog:DialogCoordinator.Instance}"/>

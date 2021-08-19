@@ -37,7 +37,7 @@ namespace NsisoLauncher.ViewModels.Windows
         /// <summary>
         /// 窗口标题
         /// </summary>
-        public string WindowTitle { get; set; } = "Nsiso Launcher";
+        public string WindowTitle { get; set; } = "DreamCraft Launcher";
 
         public NavigationService NavigationService { get; set; }
 

@@ -12,14 +12,14 @@
         <Grid HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100">
             <iconPacks:PackIconFontAwesome Kind="TimesCircleSolid" Height="100" Width="100" Foreground="DarkRed"/>
         </Grid>
-        <Label x:Name="label" Content="程序在运行时遇到该死的的错误 :(" Margin="115,10,52,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="label" Content="抱歉，启动器出现错误。:(" Margin="115,10,52,0" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock x:Name="FunnyBlock"
                    Margin="115,71,10,0"
                    TextWrapping="Wrap"
-                   Text="如果你在这里看不到段子，那么不是我们启动器的问题，是你的电脑穿越了次元的问题"
+                   Text="如果此处没有任何错误显示，请尝试重新启动您的启动器。"
                    VerticalAlignment="Top"
                    Height="39"
-                   FontSize="16"/>
+                   FontSize="18"/>
         <TextBox x:Name="textBox" Margin="10,115,10,50" TextWrapping="Wrap" IsReadOnly="True"/>
         <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10">
             <Button x:Name="CopyButton" Content="复制错误信息"
@@ -32,13 +32,10 @@
 
         <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Margin="10">
             <TextBlock x:Name="textBlock1" >
-            <Hyperlink Click="Hyperlink_Click">作者邮箱</Hyperlink>
+            <Hyperlink NavigateUri="https://www.dreamcraft.com.cn">社区官网</Hyperlink>
             </TextBlock>
             <TextBlock x:Name="textBlock3" Margin="10,0,0,0" >
-            <Hyperlink Click="Hyperlink_Click_2">项目Github</Hyperlink>
-            </TextBlock>
-            <TextBlock x:Name="textBlock2" Margin="10,0,0,0" >
-            <Hyperlink Click="Hyperlink_Click_1">用户QQ群</Hyperlink>
+            <Hyperlink NavigateUri="https://github.com/dreamuniverse843/BSUniversal_Nsiso">项目Github</Hyperlink>
             </TextBlock>
         </StackPanel>
         <CheckBox x:Name="moreInfoCheckBox" Content="上传报告时附加环境信息" HorizontalAlignment="Left" Margin="10,0,0,27" Height="18" VerticalAlignment="Bottom"/>
